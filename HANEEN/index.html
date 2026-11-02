@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffe8f0">
+
+    <title> الى حبيتي حنونه </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-hearts" id="backgroundHearts"></div>
+
+    <!-- INTRO SCREEN -->
+    <main class="container">
+
+        <section class="screen intro active" id="intro">
+
+            <div class="intro-card">
+
+                <div class="heart-icon">♥</div>
+
+                <p class="english-label">
+                    A LITTLE SOMETHING FOR YOU
+                </p>
+
+                <h1>
+                    رساله صغيره الى رفيقة حياتي 
+                    <span>♡</span>
+                </h1>
+
+                <p class="intro-description">
+                    في كلام كتير كان نفسي أقولهولك...
+                    <br>
+                    فحبيت أعملهولك بطريقتي.
+                </p>
+
+                <button class="main-button" id="openButton">
+                    افتحي رسالتك
+                    <span>♡</span>
+                </button>
+
+                <p class="headphone-note">
+                    يفضل تفتحيها بسماعاتك 🎧
+                </p>
+
+            </div>
+
+            <footer>
+                Made with love, just for you.
+            </footer>
+
+        </section>
+
+
+        <!-- QUESTIONS SCREEN -->
+        <section class="screen questions" id="questions">
+
+            <header class="page-header">
+                <span>♥</span>
+         رسالة صغيرة إلى زوجتي المستقبليه
+                <span>♥ </span>
+            </header>
+
+            <div class="progress-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+
+            <article class="question-card">
+
+                <div class="decoration">✿</div>
+
+                <p class="question-number" id="questionNumber">
+                    01 / 02
+                </p>
+
+                <h2 id="questionTitle"></h2>
+
+                <div class="separator">
+                    <span>♡</span>
+                </div>
+
+                <p class="answer-text" id="answerText"></p>
+
+                <div class="card-footer">
+                    <span>من عبدالفتاح</span> 
+                    
+                    <span>♡</span>
+                </div>
+
+            </article>
+
+            <div class="navigation">
+
+                <button class="back-button" id="backButton">
+                    رجوع
+                </button>
+
+                <button class="main-button next-button" id="nextButton">
+                    السؤال اللي بعده ♡
+                </button>
+
+            </div>
+
+            <p class="music-status" id="musicStatus">
+                ♫ A little song for you
+            </p>
+
+        </section>
+
+
+        <!-- FINAL SCREEN -->
+        <section class="screen ending" id="ending">
+
+            <div class="ending-card">
+
+                <div class="big-heart">♥</div>
+
+                <p class="english-label">
+                    ONE LAST THING
+                </p>
+
+                <h2>إلى زوجتي المستقبليه.</h2>
+
+                <p class="ending-message">
+
+                    يمكن لسه بينا شاشة ومسافة，
+                    ولسه قدامنا حاجات كتير نعيشها
+                    ونعرفها عن بعض，
+                    بس أنا مبسوط إنك بقيتي جزء من أيامي.
+
+                    <br><br>
+
+                    دي مجرد بداية، وإن شاء الله يبقى لينا
+                    ذكريات كتير أحلى من الكلام اللي اتكتب هنا.
+
+                </p>
+
+                <p class="signature">
+                    بحب وجودك في حياتي，
+                    <br>
+                    <strong>عبدالفتاح</strong> ♡
+                </p>
+
+                <button class="replay-button" id="replayButton">
+                    اقري الرسالة تاني
+                </button>
+
+            </div>
+            
+            <footer>
+                The beginning of something beautiful.
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <!-- MUSIC -->
+    <audio id="loveSong" preload="metadata">
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="love.js"></script>
+
+</body>
+</html>
